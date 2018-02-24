@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/grimelion/hackaton-swiss-2018#readme",
   "dependencies": {
-    "@cityofzion/neo-js": "^0.6.0"
+    "@cityofzion/neo-js": "^0.6.0",
+    "neo-api": "^1.0.3",
+    "neo-js": "^0.1.0"
   }
 }
