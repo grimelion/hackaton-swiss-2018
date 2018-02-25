@@ -1,0 +1,1 @@
+sudo docker build . | tail -1 | cut -d\  -f 3 | xargs -i sudo docker run -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp {}
